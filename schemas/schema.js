@@ -11,6 +11,7 @@ import richText from './richText';
 import products from './products';
 import recipes from './recipes';
 import distilleries from './distilleries';
+import configs from './configs';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -27,5 +28,6 @@ export default createSchema({
         recipes,
         products,
         distilleries,
+        configs,
     ]),
 });
