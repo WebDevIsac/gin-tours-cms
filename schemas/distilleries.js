@@ -13,7 +13,7 @@ export default {
                 maxLength: 96,
             },
         },
-        { name: 'place', title: 'Place', type: 'string' },
+        { name: 'place', title: 'Place', type: 'geopoint' },
         {
             name: 'image',
             title: 'Image',
