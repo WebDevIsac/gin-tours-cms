@@ -18,6 +18,16 @@ export default {
             ],
         },
         {
+            name: 'price',
+            type: 'number',
+            title: 'Price per person',
+        },
+        {
+            name: 'groupPrice',
+            type: 'groupPrice',
+            title: 'Group price',
+        },
+        {
             title: 'Dates',
             name: 'dates',
             type: 'array',

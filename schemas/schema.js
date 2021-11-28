@@ -12,6 +12,7 @@ import products from './products';
 import recipes from './recipes';
 import distilleries from './distilleries';
 import configs from './configs';
+import groupPrice from './groupPrice';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,5 +30,6 @@ export default createSchema({
         products,
         distilleries,
         configs,
+        groupPrice,
     ]),
 });
