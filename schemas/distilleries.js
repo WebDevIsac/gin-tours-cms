@@ -13,11 +13,12 @@ export default {
                 maxLength: 96,
             },
         },
-        { name: 'place', title: 'Place', type: 'geopoint' },
+        { name: 'place', title: 'Place', type: 'string' },
+        { name: 'geopoint', title: 'GeoPoint', type: 'geopoint' },
         {
             name: 'image',
             title: 'Image',
-            type: 'figure',
+            type: 'image',
         },
         {
             name: 'badge',
