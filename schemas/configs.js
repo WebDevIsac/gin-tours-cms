@@ -8,6 +8,16 @@ export default {
             title: 'Pin',
             type: 'image',
         },
+        {
+            name: 'desktopImage',
+            title: 'Desktop Image',
+            type: 'image',
+        },
+        {
+            name: 'mobileImage',
+            title: 'Mobile Image',
+            type: 'image',
+        },
     ],
     preview: {
         select: {
