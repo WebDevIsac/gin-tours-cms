@@ -7,12 +7,13 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 
 import figure from './figure';
 import richText from './richText';
+import groupPrice from './groupPrice';
 
 import products from './products';
 import recipes from './recipes';
 import distilleries from './distilleries';
 import configs from './configs';
-import groupPrice from './groupPrice';
+import types from './types';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,12 +25,13 @@ export default createSchema({
         // Used objects
         figure,
         richText,
+        groupPrice,
 
         // Documents
         recipes,
         products,
         distilleries,
         configs,
-        groupPrice,
+        types,
     ]),
 });
