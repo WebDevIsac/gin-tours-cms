@@ -23,13 +23,33 @@ export default {
             ],
         },
         {
+            name: 'type',
+            type: 'reference',
+            to: [
+                {
+                    type: 'types',
+                },
+            ],
+        },
+        {
             name: 'image',
             title: 'Image',
             type: 'image',
         },
         {
             name: 'ingredients',
-            title: 'Ingredient',
+            title: 'Ingredients',
+            type: 'array',
+            of: [
+                {
+                    title: 'Ingredient',
+                    type: 'string',
+                },
+            ],
+        },
+        {
+            name: 'ingredientsQuickLook',
+            title: 'Ingredients Quick Look',
             type: 'array',
             of: [
                 {
