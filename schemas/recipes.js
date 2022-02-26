@@ -4,6 +4,7 @@ export default {
     type: 'document',
     fields: [
         { name: 'title', title: 'Title', type: 'string' },
+        { name: 'fullName', title: 'Full Name', type: 'string' },
         {
             name: 'slug',
             title: 'Slug',
@@ -67,6 +68,17 @@ export default {
             name: 'link',
             title: 'Link',
             type: 'url',
+        },
+        {
+            name: 'showMoreInfo',
+            title: 'Show more info field',
+            type: 'boolean',
+        },
+        {
+            name: 'moreInfo',
+            title: 'More Info',
+            type: 'richText',
+            hidden: ({ document }) => !document?.showMoreInfo,
         },
     ],
 };
