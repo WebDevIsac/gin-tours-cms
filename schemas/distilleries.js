@@ -3,7 +3,7 @@ export default {
     title: 'Distilleries',
     type: 'document',
     fields: [
-        { name: 'is_bookable', title: 'Is Bookable', type: 'boolean' },
+        { name: 'isBookable', title: 'Is Bookable', type: 'boolean' },
         { name: 'title', title: 'Title', type: 'string' },
         {
             name: 'slug',
