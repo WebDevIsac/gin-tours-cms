@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import figure from './figure';
 import richText from './richText';
 import groupPrice from './groupPrice';
+import dateObject from './dateObject';
 
 import products from './products';
 import recipes from './recipes';
@@ -26,6 +27,7 @@ export default createSchema({
         figure,
         richText,
         groupPrice,
+        dateObject,
 
         // Documents
         recipes,

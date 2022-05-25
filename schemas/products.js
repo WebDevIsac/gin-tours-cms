@@ -33,8 +33,9 @@ export default {
             type: 'array',
             of: [
                 {
+                    name: 'dateObject',
+                    type: 'dateObject',
                     title: 'Date',
-                    type: 'date',
                 },
             ],
         },
